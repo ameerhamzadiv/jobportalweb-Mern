@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/jobportal/node_modules
+/backendjobportal/node_modules
+/jobportal/.pnp
+/jobportal/.pnp.js
+
+# testing
+/jobportal/coverage
+
+# production
+/jobportal/build
+/backendjobportal/.env
+
+# misc
+/jobportal/.DS_Store
+/jobportal/.env.local
+/jobportal/.env.development.local
+/jobportal/.env.test.local
+/jobportal/.env.production.local
+
+/jobportal/npm-debug.log*
+/jobportal/yarn-debug.log*
+/jobportal/yarn-error.log*
